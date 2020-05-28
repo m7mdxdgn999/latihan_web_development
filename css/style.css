@@ -1,9 +1,48 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* selesai import */
+
+/* global style */
 body{
     background: #f6f7fb;
+}
+.btn-primary-tiketsaya {
+    background: #203ddd;
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Montserrat";
+}
+/* global style */
+.header-sign-in{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
-.login-section{
+.form-sign-in {
 
-    margin-top: 30px;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 50px;
+    
 }
+
+.form-sign-in .title-form{
+     font-size: 20px;
+     font-family: "Montserrat";
+     font-weight: 500;
+     margin: 0px;
+}
+
+.form-sign-in .subtitle-form{
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #b4b4b4;
+}
+
