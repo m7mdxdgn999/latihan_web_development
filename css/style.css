@@ -6,6 +6,58 @@
 body{
     background: #f6f7fb;
 }
+
+
+.side-left .shortcut {
+
+    width: 70px;
+    height: 1100px;
+    background: linear-gradient(0deg, rgba(37,149,245,1) 0%, rgba(32,61,209,1) 100%);
+    float: left;
+}
+
+.side-left .shortcut .emblem { 
+
+    width: 70px;
+    overflow: hidden;
+    background: #021B79;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+.side-left .shortcut .menus {
+
+    width: 70px;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+
+.side-left .shortcut .menus .item-menu {
+    width: 45px;
+    height: 45px;
+    background: #021B79 ;
+    border-radius: 14px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.side-left .shortcut .menus .icon-item-menu {
+  
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.side-left .shortcut .menus .item-menu:last-child {
+    margin-top: 150px;
+}
+
+
+
+
 .btn-primary-tiketsaya {
     background: #203ddd;
     border: 0px;
@@ -40,6 +92,8 @@ body{
     border: 1px solid #ededed;
     color: #203ddd;
 }
+
+
 /* global style */
 .header-sign-in{
 
