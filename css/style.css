@@ -6,10 +6,16 @@
 body{
     background: #f6f7fb;
 }
-/* side left */
+
+.side-left {
+    float: left;
+    width: 310px;
+    overflow: hidden;
+}
+/* side left shortcut */
 .side-left .shortcut {
     width: 70px;
-    height: 1100px;
+    height: 100%;
     background: linear-gradient(0deg, rgba(37,149,245,1) 0%, rgba(32,61,209,1) 100%);
     float: left;
 }
@@ -68,6 +74,63 @@ body{
     margin-top: 150px;
 }
 /* akhir side left */
+
+/* side left admin profile */
+.side-left .admin-profile {
+    width: 240px;
+    height: 800px;
+    background: #fff;
+    float: left;
+}
+
+.side-left .admin-profile .admin-picture img {
+        width: 120px;
+    height: 120px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.5);
+    margin-top: 50px;
+     object-fit: cover;
+}
+
+.side-left .admin-profile .admin-name {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+/* akhir admin profile */
+/* admin menus */
+.side-left .admin-profile .admin-level {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #b4b4bb;
+    text-align: center;    
+}
+.side-left .admin-profile .admin-menus {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+.side-left .admin-profile .admin-menus a {
+    text-decoration: none;
+}
+
+.side-left .admin-profile li {
+    display: block;
+    padding-bottom: 50px;
+    font-size: 19px;
+    font-family: "Montserrat";
+    color: #b4b4b4;
+}
+/* akhir admin menus */
+
+
+
+/* akhir side left admin profile */
 
 /* btn primary */
 .btn-primary-tiketsaya {
