@@ -22,7 +22,7 @@
     <!-- side left -->
     <div class="side-left">
         <!-- shortcut -->
-        <div class="shortcut">
+        <div class="shortcut" onmouseover="showAdminProfile()">
             <!-- emblem -->
             <div class="emblem text-center">
                 <img src="images/PUTIHLOGO.png" height="49" alt="">
@@ -54,7 +54,7 @@
         <!-- akhir shortcut -->
 
         <!-- adimn profile -->
-        <div class="admin-profile r">
+        <div class="admin-profile " id="sl_ap" onmouseover="showAdminProfile()" onmouseout="hideAdminProfile()">
             <div class="admin-picture text-center">
                 <img src="images/muhammad.jpeg" alt="" class="rounded-circle">                
             </div>
@@ -64,7 +64,7 @@
                 <a href="dashboard.html"><li class="active-link">My Dashboard</li></a>
                 <a href="sales.html" ><li style="margin-top:-12px ;">Ticket Sales</li></a>
                 <a href="wisata.html"><li style="margin-top: -13px;">Manage Wisata</li></a>
-                <a href="customer.html"><li style="margin-top: -15px;">customer</li></a>
+                <a href="customer.html"><li style="margin-top: -15px;">Customer <span class="badge badge-primary badge-tiketsaya">30</span></li></a>
                 <a href="setting.html"><li style="margin-top: -12px;">Account setting</li></a>
                 <a href="logout.html"><li style="padding-top: 120px;">Log out</li></a>
             </ul>
@@ -87,6 +87,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+        <script type="text/JavaScript" src="js/main.js"></script>
 </body>
 
 </html>
