@@ -73,7 +73,7 @@ body{
 .side-left .shortcut .menus .item-menu:last-child {
     margin-top: 150px;
 }
-/* akhir side left */
+/* akhir side left shortcut*/
 
 /* side left admin profile */
 .side-left .admin-profile {
@@ -142,10 +142,83 @@ body{
     color: black;
 }
 /* akhir admin menus */
-
-
-
 /* akhir side left admin profile */
+
+/* main-contant */
+.main-content {
+
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 900px;
+    overflow: hidden;
+    float: left;
+
+}
+
+.main-content .header .header-title {
+
+    font-size: 32px;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 0;
+
+}
+
+.main-content .header .sub-header-title {
+
+    font-size: 16px;
+    color: #c7c7c7;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin: 0;
+
+}
+
+.main-content .report-group {
+
+    margin-top:35px;
+}
+
+
+.main-content .report-group .item-report-group {
+    background: white;
+    border-radius: 8px;
+}
+
+.main-content .report-group .item-report-group .content  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content .report-group .item-report-group .content img {
+    float: left;
+    height: 60px;
+    margin-right: 12px;
+}
+
+.main-content .report-group .item-report-group .content .title-item {
+
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin: 0;
+
+}
+
+.main-content .report-group .item-report-group .content .subtitle-item {
+
+    font-size: 14px;
+    color: #b4b4b4;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin: 0;
+
+}
+    
+
+/* akhir main content */
 
 /* btn primary */
 .btn-primary-tiketsaya {
@@ -183,7 +256,7 @@ body{
 /* akhir btn primary */
 
 
-/* global style */
+/* akhir global style */
 
 /* header */
 .header-sign-in{
