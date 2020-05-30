@@ -155,34 +155,32 @@ body{
 
 }
 
+/* main content header */
 .main-content .header .header-title {
-
     font-size: 32px;
     color: black;
     font-weight: 400;
     font-family: "Montserrat";
     margin: 0;
-
 }
 
 .main-content .header .sub-header-title {
-
     font-size: 16px;
     color: #c7c7c7;
     font-weight: 300;
     font-family: "Montserrat";
     margin: 0;
-
 }
-
+/* akhir main content header */
+/* main content report group */
 .main-content .report-group {
-
     margin-top:35px;
 }
 
-
+/* main content item report group */
 .main-content .report-group .item-report-group {
-    background: white;
+    background: url('../images/bg_item_report.png');
+    background-size: cover;
     border-radius: 8px;
 }
 
@@ -198,24 +196,45 @@ body{
 }
 
 .main-content .report-group .item-report-group .content .title-item {
-
     font-size: 18px;
     color: black;
     font-weight: 500;
     font-family: "Montserrat";
     margin: 0;
-
 }
 
-.main-content .report-group .item-report-group .content .subtitle-item {
 
+
+.main-content .report-group .item-report-group .content .subtitle-item {
     font-size: 14px;
     color: #b4b4b4;
     font-weight: 300;
     font-family: "Montserrat";
     margin: 0;
-
 }
+
+.main-content .report-group .item-report-group .content .value-item {
+    font-size: 42px;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 0;
+    clear: both;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.main-content .report-group .item-report-group .content .desc-item {
+    font-size: 14px;
+    color: #b4b4b4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 0;
+    margin-top: 40px;
+    
+}
+/* main contetnt item report group */
     
 
 /* akhir main content */
