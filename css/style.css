@@ -295,6 +295,78 @@ body{
     
 }
 /* akhir divider line */
+/* user picture */
+
+.main-content .report-group .user-item {
+   
+    margin-top: 10px;
+   
+ }
+
+.main-content .report-group .user-item .user-picture {
+   
+   float: left;
+
+ }
+.main-content .report-group .user-item .title {
+   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: black;
+    margin: 0;
+    padding-top: 10px;
+    
+   
+ }
+
+ .main-content .report-group .user-item .subtitle {
+   
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Montserrat";
+    color: #b4b4b4;
+    margin: 0;
+   
+ }
+ .main-content .report-group .user-item .user-picture img{
+   
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 10px; 
+   margin-left: auto;
+   margin-right: 12px;
+    object-fit: cover;
+ }
+
+ .main-content .report-group .user-item .btn-small-border {
+
+    background: none;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+    margin-top: -45px;
+    color: #cccccc;
+    font-weight: 300;
+    font-family: "Montserrat";
+    clear: both;
+
+ }
+
+ .main-content .report-group .user-item a {
+
+    text-decoration: none;
+ }
+
+ .main-content .report-group .user-item .btn-small-border:hover {
+
+    color: #203ddd;
+ }
+
+/* akhir user picture */
 
 /* akhir big report */   
 /* akhir main content */
@@ -338,7 +410,7 @@ body{
     border: 1px solid #ededed;
     color: #203ddd;
 }
-/* akhir btn primary */
+
 
 
 /* akhir global style */
