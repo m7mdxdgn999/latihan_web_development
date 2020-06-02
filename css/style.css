@@ -378,10 +378,66 @@ body{
  }
 
  /* akhir btn small border */
-
-
-
 /* akhir big report */   
+
+/* table */
+/* btn small table */
+.main-content .report-group  .btn-small-table {
+    background: none;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 8px;
+    color: #cccccc;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Montserrat";    
+    text-decoration: none;
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(32,61,209,0.21);
+    -moz-box-shadow: 0px 3px 9px 0px rgba(32,61,209,0.21);
+    box-shadow: 0px 3px 9px 0px rgba(32,61,209,0.21);
+ }
+
+ .main-content .report-group  .btn-small-table:hover {
+    background: #203ddd;
+    color: #fff !important;
+    border: none;
+     
+ }
+/* akhir btn small table */
+
+/* user table item */
+ .main-content .report-group .user-table-item {
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100%;    
+    object-fit: cover;
+ }
+ 
+ .main-content .report-group  .item-big-report .table-tiketsaya tr td {
+
+    vertical-align: middle !important;
+ }
+
+ .main-content .report-group  .item-big-report .table-tiketsaya thead tr th{
+
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+ }
+
+ .main-content .report-group  .item-big-report .table-tiketsaya tbody tr td{
+
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+ }
+/* akhir user item table */
+/* akhir table */
 /* akhir main content */
 
 
