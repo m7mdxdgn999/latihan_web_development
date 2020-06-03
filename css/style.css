@@ -380,7 +380,7 @@ body{
  /* akhir btn small border */
 /* akhir big report */   
 
-/* table */
+/* table sales */
 /* btn small table */
 .main-content .report-group  .btn-small-table {
     background: none;
@@ -415,12 +415,10 @@ body{
  }
  
  .main-content .report-group  .item-big-report .table-tiketsaya tr td {
-
     vertical-align: middle !important;
  }
 
  .main-content .report-group  .item-big-report .table-tiketsaya thead tr th{
-
     font-size: 16px;
     color: black;
     font-weight: 300;
@@ -429,7 +427,6 @@ body{
  }
 
  .main-content .report-group  .item-big-report .table-tiketsaya tbody tr td{
-
     font-size: 16px;
     color: black;
     font-weight: 400;
@@ -437,10 +434,41 @@ body{
     text-align: center;
  }
 /* akhir user item table */
-/* akhir table */
+/* akhir table sales */
+
+.main-content .report-group  .item-big-report .table-wisata thead tr th{
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: left;
+ }
+
+ .main-content .report-group  .item-big-report .table-wisata tbody tr td{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .main-content .report-group  .item-big-report .table-wisata tbody tr:hover{
+ background: #f7f9fc;
+ }
+
+ .main-content .report-group  .item-big-report .table-wisata tbody tr:hover td{
+    color: #203ddd ;
+    }
+   
+
+
+/* table wisata */
+
+
+/* akhir table wisata */
 /* akhir main content */
-
-
 
 /* btn primary */
 .btn-primary-tiketsaya {
