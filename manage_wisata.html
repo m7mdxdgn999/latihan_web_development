@@ -120,49 +120,82 @@
 
             <!-- akhir bagian kirin -->
 
-            <!-- table -->
+            <!-- thumbnail -->
             <div class="  col-md-12">
                 <div class="item-big-report col-md-12">
-                    <!-- head -->
-                    <table class="table table-borderless table-tiketsaya table-wisata">
-                        <thead>
-                            <tr>
-                                <th scope="col">Nama Wisata</th>
-                                <th scope="col">Lokasi</th>
-                                <th scope="col">Tanggal</th>
-                                <th scope="col">Harga Tiket</th>
-                                <th scope="col">Menu</th>
-                            </tr>
-                        </thead>
-                        <!-- akhir head -->
-                        <!-- body -->
-                        <tbody>
-                            <tr>
-                                <td>Monas</td>
-                                <td>Jakarta, Indonesia</td>
-                                <td>January22, 2019</td>
-                                <td>US$123</td>
-                                <td><a href="" class="btn-small-table btn-primary ">Details</a></td>
-                            </tr>
+                    <div class="row" style="padding-left: 30px;">
+                        <div class="col-md-4">
+                            <p class="label-thumbnail">Thumbnails Wisata</p>
+                            <img src="images/muhammad.jpeg" alt="" class="thumbnail-wisata">
+                        </div>
 
-                            <tr>
-                                <td>Candi </td>
-                                <td> Mageleng, Yogya</td>
-                                <td>March1, 2019</td>
-                                <td>US$14</td>
-                                <td><a href="" class="btn-small-table btn-primary ">Details</a></td>
-                            </tr>
-                            <tr>
-                                <td> Pisa </td>
-                                <td>Pisa, Italia</td>
-                                <td>Agustus22, 2020</td>
-                                <td>US$0</td>
-                                <td><a href="" class="btn-small-table btn-primary ">Details</a></td>
-                            </tr>
+                        <div class="col-md-5">
+                            <form action="dashboard.html">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" class="title-input-primary-username">Nama
+                                        Wisata</label>
+                                    <input type="text" class="form-control input-type-primary-tiketsaya"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Wisata">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" class="title-input-primary-username">Lokasi
+                                        Wisata</label>
+                                    <input type="text" class="form-control input-type-primary-tiketsaya"
+                                        id="exampleInputPassword1" placeholder="Lokasi">
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label for="exampleInputPassword1"
+                                                class="title-input-primary-username">Harga Tiket ($US)</label>
+                                            <input type="number" class="form-control input-type-primary-tiketsaya"
+                                                id="exampleInputPassword1" placeholder="Harga">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="exampleInputPassword1"
+                                                class="title-input-primary-username">Tanggal</label>
+                                            <input type="text" class="form-control input-type-primary-tiketsaya"
+                                                id="exampleInputPassword1" placeholder="Tanggal">
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="form-group" style="margin-top: -20px;"> 
+                                    <label for="exampleFormControlTextarea1" class="input-type-primary-tiketsaya">Ketentuan</label>
+                                    <textarea class="form-control input-type-primary-tiketsaya" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                  <div class="form-group" > 
+                                    <label for="exampleFormControlTextarea1" class="input-type-primary-tiketsaya">Deskripsi Wisata</label>
+                                    <textarea class="form-control input-type-primary-tiketsaya" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="exampleInputPassword1"
+                                                class="title-input-primary-username">Has Wifi?</label>
+                                            <input type="text" class="form-control input-type-primary-tiketsaya"
+                                                id="exampleInputPassword1" placeholder="Wifi">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="exampleInputPassword1"
+                                                class="title-input-primary-username">Has Spot?</label>
+                                            <input type="number" class="form-control input-type-primary-tiketsaya"
+                                                id="exampleInputPassword1" placeholder="Spot?">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="exampleInputPassword1"
+                                                class="title-input-primary-username">Has Festival</label>
+                                            <input type="text" class="form-control input-type-primary-tiketsaya"
+                                                id="exampleInputPassword1" placeholder="Festival">
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-primary-tiketsaya">Sign In</button>
+                            </form>
+                        </div>
+                    </div>
 
-                        </tbody>
-                        <!-- akhir body -->
-                    </table>
 
                 </div>
 

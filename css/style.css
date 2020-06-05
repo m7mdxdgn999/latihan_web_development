@@ -460,14 +460,29 @@ body{
 
  .main-content .report-group  .item-big-report .table-wisata tbody tr:hover td{
     color: #203ddd ;
-    }
-   
-
-
+    } 
 /* table wisata */
-
-
 /* akhir table wisata */
+
+.main-content .report-group  .item-big-report .label-thumbnail {
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #21272c;
+    font-family: "Montserrat";
+
+} 
+
+.main-content .report-group  .item-big-report .thumbnail-wisata {
+    border-radius: 8px;
+    height: 170px;
+    width: 290px;
+    object-fit: cover;
+
+}
+/* thumbnail */
+
+/* akhir thumbnails */
 /* akhir main content */
 
 /* btn primary */
@@ -500,6 +515,7 @@ body{
     font-size: 16px;
     font-family: "Montserrat";
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .input-type-primary-tiketsaya:focus {
