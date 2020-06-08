@@ -123,21 +123,20 @@
             <!-- thumbnail -->
             <div class="  col-md-12">
                 <div class="item-big-report col-md-12">
-
-                    <div class="row" >
-                         <div class="col-md-4 overlay-box">
-
-                            <a href="" class="btn btn-primary btn-third-tiketsaya ">Replace</a>
-                    
-
-                         </div>
+                    <div class="row">
+                        <div class="col-md-4 overlay-box">
+                            <a href=""  id="open_file" class="btn btn-primary btn-third-tiketsaya ">Replace</a>
+                        </div>
                         <div class="col-md-4 thumbnail-box" style="padding-left: 30px;">
                             <p class="label-thumbnail">Thumbnails Wisata</p>
                             <img src="images/muhammad.jpeg" alt="" class="thumbnail-wisata">
                         </div>
 
-                        <div class="col-md-5">
+                        <div class="col-md-5" style="margin-left: 100px;">
                             <form action="dashboard.html">
+                                <div class="form-group">                                    
+                                    <input type="file"   id="image_file" >
+                                </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1" class="title-input-primary-username">Nama
                                         Wisata</label>
@@ -164,38 +163,42 @@
                                             <input type="text" class="form-control input-type-primary-tiketsaya"
                                                 id="exampleInputPassword1" placeholder="Tanggal">
                                         </div>
-                                       
+
                                     </div>
                                 </div>
-                                <div class="form-group" style="margin-top: -20px;"> 
-                                    <label for="exampleFormControlTextarea1" class="input-type-primary-tiketsaya">Ketentuan</label>
-                                    <textarea class="form-control input-type-primary-tiketsaya" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                  </div>
-                                  <div class="form-group" > 
-                                    <label for="exampleFormControlTextarea1" class="input-type-primary-tiketsaya">Deskripsi Wisata</label>
-                                    <textarea class="form-control input-type-primary-tiketsaya" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                  </div>
-                                  <div class="form-group">
+                                <div class="form-group" style="margin-top: -20px;">
+                                    <label for="exampleFormControlTextarea1"
+                                        class="input-type-primary-tiketsaya">Ketentuan</label>
+                                    <textarea class="form-control input-type-primary-tiketsaya"
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1"
+                                        class="input-type-primary-tiketsaya">Deskripsi Wisata</label>
+                                    <textarea class="form-control input-type-primary-tiketsaya"
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <label for="exampleInputPassword1"
-                                                class="title-input-primary-username">Has Wifi?</label>
+                                            <label for="exampleInputPassword1" class="title-input-primary-username">Has
+                                                Wifi?</label>
                                             <input type="text" class="form-control input-type-primary-tiketsaya"
                                                 id="exampleInputPassword1" placeholder="Wifi">
                                         </div>
                                         <div class="col-md-4">
-                                            <label for="exampleInputPassword1"
-                                                class="title-input-primary-username">Has Spot?</label>
+                                            <label for="exampleInputPassword1" class="title-input-primary-username">Has
+                                                Spot?</label>
                                             <input type="number" class="form-control input-type-primary-tiketsaya"
                                                 id="exampleInputPassword1" placeholder="Spot?">
                                         </div>
                                         <div class="col-md-4">
-                                            <label for="exampleInputPassword1"
-                                                class="title-input-primary-username">Has Festival</label>
+                                            <label for="exampleInputPassword1" class="title-input-primary-username">Has
+                                                Festival</label>
                                             <input type="text" class="form-control input-type-primary-tiketsaya"
                                                 id="exampleInputPassword1" placeholder="Festival">
                                         </div>
-                                       
+
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-primary-tiketsaya">Update</button>

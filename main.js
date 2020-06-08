@@ -14,3 +14,9 @@
 // //      sl_ap.style.visibility = "hidden";
 // //      sl_ap.style.transition = "all 0.8s";
 // //  };
+
+$(function () {
+    $("#open_file").click (function () {
+        $('#image_file').click();
+    });
+});
