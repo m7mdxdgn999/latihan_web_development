@@ -7,6 +7,10 @@ body{
     background: #F6F7FB;
 }
 
+.user-info{
+    margin-left: 12px;
+    float: left;
+}
 /* title blue */
 .title-blue {
 
@@ -516,6 +520,41 @@ body{
     object-fit: cover;
 }
 /* akhir thumbnail wisata */
+
+/* wrap user picture circle */
+.main-content .report-group  .item-big-report .wrap-user-picture-circle{
+
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;    
+    border: 1px solid #e6e8f0;
+    float: left;
+}
+.main-content .report-group  .item-big-report .primary-user-picture-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;    
+    display: block;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 4px;
+}
+
+/* akhir wrap user picture circle */
+
+.main-content .report-group  .item-big-report .total-balance{
+    margin: 40px;
+    float: left;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-content .report-group  .item-big-report .total-balance .value-balance{
+  color: #1abc9c;
+}
+
 
 /* akhir main content */
 
