@@ -542,6 +542,7 @@ body{
 
 /* akhir wrap user picture circle */
 
+/* balance */
 .main-content .report-group  .item-big-report .total-balance{
     margin: 40px;
     float: left;
@@ -554,7 +555,50 @@ body{
 .main-content .report-group  .item-big-report .total-balance .value-balance{
   color: #1abc9c;
 }
+/* akhir balance */
 
+/* user wisata place */
+.main-content .report-group  .item-big-report .user-wisata-place  {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-content .report-group  .item-big-report .user-wisata-place .title {
+    font-size: 16px;
+}
+
+.main-content .report-group  .item-big-report .user-wisata-place .item-wisata-place  {
+   margin-top: 30px;
+   text-align: center;
+   
+}
+.main-content .report-group  .item-big-report .user-wisata-place .item-wisata-place img {
+    width: 240px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 14px;
+}
+
+.main-content .report-group  .item-big-report .user-wisata-place .title-info-wisata-place {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 400;
+    color: #21272c;
+    margin: 0px;
+    
+    
+}
+
+.main-content .report-group  .item-big-report .user-wisata-place .subtitle-info-wisata-place {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 300;
+    color: #b4b4b4;
+
+    
+}
 
 /* akhir main content */
 
